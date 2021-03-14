@@ -8,28 +8,29 @@
 </head>
 <body>
 
-<img src="images\hat.jpg" alt="Винный магазин. Шапка сайта" title="Винный магазин" width="100%" >
-
-<h1 style="text-align: center">Винный магазин France & Valse</h1>
+<div class="header">
+    <table  align="left" width="100%">
+        <tr>
+            <td width="41%">
+                <a href="index.html" title="Главная">
+                    <img src="images/logo.png">
+                </a>
+            </td>
+            <td width="6%">
+                <a href="index.html" title="Главная">Главная</a>
+            </td>
+            <td width="6%">
+                <a href="catalog.html" title="Каталог">Каталог</a>
+            </td>
+            <td width="47%">
+                <a href="aboutUs.html" title="О Нас">О нас</a>
+            </td>
+        </tr>
+    </table>
+</div>
 <hr>
-<table class="menu" align="center">
 
-    <tr>
-        <td>
-            <a href="index.html" title="Главная">Главная</a>
-        </td>
-        <td>
-            <a href="catalog.html" title="Каталог">Каталог</a>
-        </td>
-        <td>
-            <a href="aboutUs.html" title="О Нас">О нас</a>
-        </td>
-    </tr>
-
-</table>
-<hr>
-
-<a href="catalog.html" style="margin-left: 20px"><-Назад</a>
+<a href="catalog.html" style="margin-left: 40px; ">Назад</a>
 
 <p class="name-wine"align="center">
     <strong>Domaine Jean Collet et Fils, Chablis Grand Cru "Les Clos" AOC, 2016</strong>
@@ -54,27 +55,64 @@
             <p class="headline-description">
                 Характеристики:
             </p>
-            <ul class="list-item-description | list">
-                <li>
-                    <span>Вино:</span> <div>Белое, сухое</div>
-                </li>
-                <li>
-                    <span>Регион:</span> <div>Франция, Бургундия, Шабли</div>
-                </li>
-                <li>
-                    <span>Производитель:</span> <div>Domaine Jean Collet et Fils</div>
-                </li>
-                <li>
-                    <span>Крепость:</span> <div>13%</div>
-                </li>
-                <li>
-                    <span>Объём:</span> <div>0.75 л</div>
-                </li>
-                <li>
-                    <span>Виноград:</span> <div>Шардоне: 100%</div>
-                </li>
+            <table class="table-item-description" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <span>Вино:</span>
+                    </td>
+                    <td>
+                        <span>Белое, сухое</span>
+                    </td>
+                    <td rowspan="6">
+                        <p>Рейтинги:<br>
+                            <span style= "border: 1px brown solid; color: plum" class="rate">WS 99</span>
+                            <span style= "border: 1px brown solid; color: purple" class="rate">JR 19.5</span>
+                            <span style= "border: 1px brown solid; color: darkgreen" class="rate">RP 99</span>
+                            <span style= "border: 1px brown solid; color: black" class="rate">ST 99</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Регион:</span>
+                    </td>
+                    <td>
+                        <span>Франция, Бургундия, Шабли</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Производитель:</span>
+                    </td>
+                    <td>
+                        <span>Domaine Jean Collet et Fils</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Крепость:</span>
+                    </td>
+                    <td>
+                        <span>13%</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Объём:</span>
+                    </td>
+                    <td>
+                        <span>0.75 л</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Виноград:</span>
+                    </td>
+                    <td>
+                        <span>Шардоне: 100%</span>
+                    </td>
+                </tr>
+            </table>
 
-            </ul>
         </td>
     </tr>
 </table>
@@ -118,12 +156,12 @@
 </table>
 
 <hr>
-
-<footer class="footer">
+<div class="footer">
+<footer>
     <p align="center">
         Copyright &copy Сурков Егор 2021  Все права защищены
     </p>
 </footer>
-
+</div>
 </body>
 </html>
