@@ -106,6 +106,10 @@ body {
     border: 2px solid black;
 }
 
+.description-img:hover {
+    border: 2px solid transparent;
+}
+
 .list-item-contacts li textarea {
     resize: none;
 }
@@ -134,6 +138,12 @@ body {
     text-align: left;
 }
 
+.text-description:first-letter {
+    color: brown;
+    font-size: 20px;
+    font-family: "Book Antiqua";
+}
+
 .input[type="email"]:focus  {
     color: #002855;
     background-color: aliceblue;
@@ -141,4 +151,8 @@ body {
 
 .input[type="text"]  {
     text-transform: capitalize;
+}
+
+.preview tr:first-child {
+    height: 75px;
 }
