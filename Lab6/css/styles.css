@@ -1,0 +1,236 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* make sure to set some focus styles for accessibility */
+:focus {
+    outline: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+frame {
+    position: relative;
+    width: 1920px;
+
+    background: #FFFFFF;
+}
+
+.first-screen {
+    position: absolute;
+    width: 1920px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+}
+
+.first-screen__menu{
+    position: absolute;
+    width: 583px;
+    height: 59px;
+    left: 932px;
+    top: 40px;
+}
+
+
+.rectangle {
+    position: absolute;
+    width: 1920px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/first-screen/Rectangleback.jpg);
+}
+
+
+.main{
+    position: absolute;
+    width: 67px;
+    height: 20px;
+    left: 952px;
+    top: 40px;
+
+    color: #FFFFFF;
+}
+.our_projects{
+    position: absolute;
+    width: 126px;
+    height: 20px;
+    left: 1059px;
+    top: 40px;
+
+    color: #FFFFFF;
+}
+.favors{
+    position: absolute;
+    width: 58px;
+    height: 20px;
+    left: 1225px;
+    top: 40px;
+    color: #FFFFFF;
+}
+.news {
+    position: absolute;
+    width: 72px;
+    height: 20px;
+    left: 1323px;
+    top: 40px;
+    color: #FFFFFF;
+}
+.contacts{
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    left: 1435px;
+    top: 40px;
+
+    color: #FFFFFF;
+}
+
+.line1 {
+    position: absolute;
+    width: 107px;
+    height: 0px;
+    left: 932px;
+    top: 99px;
+
+    border: 2px solid #FFFFFF;
+}
+.line {
+    position: absolute;
+    width: 1920px;
+    height: 0px;
+    left: 0px;
+    top: 100px;
+
+    opacity: 0.5;
+    border: 1px solid #A1A1A1;
+}
+
+.first-screen__name{
+    position: absolute;
+    width: 829px;
+    height: 111px;
+    left: 545px;
+    top: 359px;
+    color: #FFFFFF;
+}
+
+.first-screen__name p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+
+}
+
+.contacts .our_projects .favors .news .main p{
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+
+}
+
+.first-screen__center_small_text{
+    position: absolute;
+    width: 175px;
+    height: 20px;
+    left: 872px;
+    top: 319px;
+    color: #FFFFFF;
+}
+
+.first-screen__center_small_text p{
+    text-align: center;
+}
+
+.first-screen__rectangle_2 {
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    left: 860px;
+    top: 520px;
+
+
+    /* Accent */
+
+    background: #4985FF;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+}
+.first-screen__button_text {
+    position: absolute;
+    width: 128px;
+    height: 17px;
+    left: 896px;
+    top: 533px;
+    color: #FFFFFF;
+
+}
+.first-screen__button_text p {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+/*.first-screen__button {*/
+/*    position: absolute;*/
+/*    width: 200px;*/
+/*    height: 45px;*/
+/*    left: 860px;*/
+/*    top: 520px;*/
+/*}*/
